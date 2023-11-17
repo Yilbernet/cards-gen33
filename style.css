@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+/*****************************/
+/***** - Simple Cards - *****/
+/***************************/
+
+html {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+:root {
+    --blue-color: #3298DC;
+    --grey-color: #AAAAAA;
+    --red-color: #F25775;
+}
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    display: block;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+h1 {
+    text-align: center;
+    margin: 75px 0 50px;
+    font-size: 40px;
+}
+.container {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    width: fit-content;
+    margin: 0 auto;
+}
+.container article {
+    border-radius: 10px;
+    width: 315px;
+    display: flex;
+    flex-direction: column;
+}
+.item h2 {
+    background-color: #F0F0F0;
+    border-bottom: 1px solid #BBBBBB;
+    border-radius: 10px 10px 0 0;
+    padding: 20px;
+    font-weight: 400;
+}
+.item div {
+    padding: 20px;
+}
+.item p {
+    margin: 20px 0;
+    font-weight: 600;
+}
+.item1 {
+    border: 2px solid var(--blue-color);
+}
+.item1 p {
+    color: var(--blue-color);
+}
+.item2 {
+    border: 2px solid var(--grey-color);
+}
+.item2 p {
+    color: var(--grey-color);
+}
+.item3 {
+    border: 2px solid var(--red-color);
+}
+.item3 p {
+    color: var(--red-color);
+}
